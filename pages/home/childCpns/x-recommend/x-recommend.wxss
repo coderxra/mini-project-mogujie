@@ -1,0 +1,20 @@
+/* pages/home/childCpns/x-recommend/x-recommend.wxss */
+.recommend {
+    margin-top: 40rpx;
+    padding-bottom: 40rpx;
+    border-bottom: 16rpx solid #eee;
+    display: flex;
+}
+.recommend-item {
+    flex: 1;
+    text-align: center;
+}
+.image {
+    width: 160rpx;
+    height: 160rpx;
+}
+.txt {
+    font-size: 30rpx;
+    color: #555;
+    margin-top: 10rpx;
+}

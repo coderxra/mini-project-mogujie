@@ -1,6 +1,7 @@
 {
   "usingComponents": {
-    "x-swiper": "/components/x-swiper/x-swiper"
+    "x-swiper": "/components/x-swiper/x-swiper",
+    "x-recommend": "./childCpns/x-recommend/x-recommend"
   },
   "navigationBarTitleText": "购物街"
 }

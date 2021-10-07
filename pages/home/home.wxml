@@ -1,0 +1,13 @@
+<!--pages/home/home.wxml-->
+<!-- 展示轮播图 -->
+<x-swiper list="{{banners}}"></x-swiper>
+
+<!-- 推荐数据展示 -->
+<view class="recommend">
+    <block wx:for="{{recommends}}" wx:key="{{index}}">
+        <view class="recommend-item">
+            <image src="{{item.image}}" class="image"></image>
+            <view class="txt">{{item.title}}</view>
+        </view>
+    </block>
+</view>

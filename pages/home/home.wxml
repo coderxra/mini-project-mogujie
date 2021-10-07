@@ -5,3 +5,11 @@
 <!-- 推荐数据展示 -->
 <x-recommend recommends="{{recommends}}"></x-recommend>
 
+<!-- 展示本周流行 -->
+<view class="popular">
+    <image class="popular-img" src="/assets/home/popular_bg.jpg" mode="widthFix" />
+</view>
+
+<!-- tab-control -->
+<x-tab-control titles="{{titles}}" bind:itemclick="handleTabClick"></x-tab-control>
+

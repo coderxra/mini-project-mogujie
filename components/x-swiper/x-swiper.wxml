@@ -9,7 +9,7 @@
         >
     <block wx:for="{{list}}" wx:key="{{index}}">
         <swiper-item class="swiper-item">
-            <image src="{{item.image}}" mode="widthFix" />
+            <image class="swiper-img" src="{{item.image}}" mode="widthFix" />
         </swiper-item>
     </block>
 </swiper>

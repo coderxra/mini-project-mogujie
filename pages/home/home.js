@@ -8,7 +8,8 @@ Page({
      */
     data: {
         banners: [],
-        recommends: []
+        recommends: [],
+        titles: ['流行', '新款', '精选']
     },
 
     /**
@@ -78,5 +79,10 @@ Page({
      */
     onShareAppMessage: function () {
 
-    }
+    },
+
+    /* --------------------------------- 事件监听 ---------------------------------- */
+    handleTabClick(event) {
+        console.log(event);
+    },
 })
